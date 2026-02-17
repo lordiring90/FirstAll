@@ -17,5 +17,21 @@ public class Principal {
         System.out.println("Hola " + nombre + ", el próximo año tendrás " + (edad + 1) + " años.");
 
         lector.close(); // Buena práctica: cerrar el lector al terminar
+
+        //Nuevo aqui yo miro
+        String Name = "Legolas";
+        int Edad2 = 30;
+        double dinero = 0.05;
+
+        //usaremos la salida del sistema para ver si esto si sale
+        System.out.println("un personaje nuevo a continuacion ->");
+        System.out.println("Se llama " + Name);
+        System.out.println("Tiene "+ Edad2 + " años");
+        System.out.println("En su cuenta bancaria tiene: " + dinero + " De dollars");
+
+
+
+
+
     }
 }
